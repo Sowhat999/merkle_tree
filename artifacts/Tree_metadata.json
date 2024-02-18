@@ -66,6 +66,40 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "transaction",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "root",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32[]",
+						"name": "proof",
+						"type": "bytes32[]"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -96,11 +130,11 @@
 	},
 	"sources": {
 		"solidity/merkle_tree/merkla_tree.sol": {
-			"keccak256": "0x64ca3150f9feed5a469a3d25f287eb0a363fff4c91d3e7430323433825c41561",
+			"keccak256": "0xe9e2fa556396dcb5332c62c31bb1546a7587dbcb9c42244425a60201d784f8d4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a79a6e7db12b4e4a2e224afc6e5f48ebf9f2c00257c87dc00e8ddaee396bfb9f",
-				"dweb:/ipfs/QmNLtzA7rcjSt53Y6XBwYbsK3iPd6c9bNBW7abierc9uVh"
+				"bzz-raw://1978762d8ff9c1277c3edae2674f583612e51364ebf776e0501fe0848799b659",
+				"dweb:/ipfs/QmR1sLm1DsFrJqfY7C1ozcc8Gt7Arg2yd9dXC4bPbUgt1f"
 			]
 		}
 	},
